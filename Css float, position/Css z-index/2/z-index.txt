@@ -1,0 +1,7 @@
+1. float로 자식요소를 띄워버릴때 부모요소의 높이값을 잃는 경우에 overflow로 높이값을 되찾을 수 있다. ( padding-bottom : 00px => 이런식으로 부모요소의 높이값을 찾지 말자 !)
+
+2. z-index로 background-color를 뒤로 오게해서 a태그를 클릭하게 할 수도 있지만, position:relative;로 상대적으로 앞으로 오게 할 수 있음.
+    (
+        1. z-index로 뒤로 보낼 시 앞에있는 요소가 배경이 있다면 아에 적용이 안된 것 처럼 보일 수 있음.
+        2. positon: relative가 absolute보다 우선순위가 높아서 a태그가 앞으로 올 수 있었던 것.
+    )  

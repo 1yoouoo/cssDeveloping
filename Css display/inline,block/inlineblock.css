@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+.parent {
+    background-color: rgb(127, 92, 231)
+}
+
+.parent div {
+    border: 1px solid #000;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.parent div:nth-child(1) {
+    background-color: skyblue;
+}
+.parent div:nth-child(2) {
+    background-color: crimson;
+    /* display: none; */
+    /* opacity: 0;
+    visibility: hidden; */
+}
+.parent div:nth-child(3) {
+    background-color: goldenrod;
+}
